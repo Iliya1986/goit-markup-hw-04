@@ -1,0 +1,98 @@
+.page-header{
+
+    font-size: 15px;
+    color:darkgray;
+    padding: 10px;
+margin: 15px;
+}
+
+
+h1 {
+    font-size: 60px;
+    color: aliceblue;
+    background-color:rgb(60, 60, 63);
+    text-emphasis: center;
+    margin: 5px;
+
+
+    margin-top: 500;
+    
+    padding: 150px;
+    }
+
+   
+
+
+
+table{
+    margin-left: 375px;
+    padding:50px;
+}
+
+
+
+h2{
+    font-size: 30PX;
+    text-align: center;
+    margin-left:60px;
+    padding: 25px; ;
+}
+
+
+
+h3{
+
+    font-size: 30PX;
+    margin-left: 700px;
+    padding: 75px; ;
+
+
+}
+
+.conteiner{
+    display:inline-block;
+    text-align: center;
+    background-color: rgb(241, 238, 235);
+  margin: 10px;
+  margin-top:100px;
+   
+
+
+
+}
+.conteiner>img{
+   max-width: 270px;
+   height: 260px;
+   text-align: center;
+}
+
+
+
+.outher{
+    text-align: center;
+
+}
+
+
+.main{
+
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.page-footer{
+    font-size: 20px;
+    color: aliceblue;
+    background-color:rgb(60, 60, 63);
+    text-emphasis: center;
+    margin: 5px;
+
+
+    margin-top: 300;
+    
+    padding: 100px;   
+}
