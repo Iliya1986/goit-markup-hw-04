@@ -62,8 +62,9 @@ padding: 0px;
 
 }
 
-.card>img{
-    width: 50%;
+.card img{
+    width:200px;
+    padding: 5px;
 }
 
 
@@ -75,15 +76,15 @@ padding: 0px;
 /* @ выставляем ширину экрана устройства через медиа */
 .container{
 display: grid;
-grid-template-columns: repeat(4,1fr);
-grid-template-rows: repeat(4);
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3);
 }
 
 .info{
     text-align: center;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
     .container{
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(5);

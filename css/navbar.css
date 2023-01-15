@@ -1,0 +1,41 @@
+.navbar{
+display: flex;
+background-color: rgb(46, 44, 44);
+
+}
+
+.nav-list{
+display: flex;
+
+}
+
+.nav-list a{
+display: block;
+padding: 1em;
+color: aliceblue;
+}
+
+.nav-list a:hover{
+    background-color: rgb(77, 75, 75);  
+}
+
+.nav-btn{
+display: none;   
+   }
+
+
+
+
+@media (max-width:1000px){
+.nav-btn{
+font-size: 2em;
+padding-inline:10px ;
+padding-bottom: 2px;
+border: none;
+color: aliceblue;
+display: block;
+}
+.nav-list{
+    display:none;
+}
+}
