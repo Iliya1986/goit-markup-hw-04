@@ -23,7 +23,9 @@ color: aliceblue;
 display: none;   
    }
 
-
+.navbar{
+    justify-content: space-between;
+}
 
 
 @media (max-width:1000px){
@@ -34,8 +36,18 @@ padding-bottom: 2px;
 border: none;
 color: aliceblue;
 display: block;
+cursor: pointer;
 }
 .nav-list{
     display:none;
 }
+.drop:hover .nav-list{
+    display: block;
+    position: absolute;
+    right: 4px;
+    background-color: rgb(46, 44, 44);
+
+
+}
+
 }
