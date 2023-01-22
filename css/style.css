@@ -25,7 +25,7 @@ h1 {
     text-align: center;
 }
 
-
+/* новый див контейнер со значками */
 
 .main-text{
     margin-top: 50px;
@@ -93,6 +93,15 @@ h3{
 
 
 }
+/* главный контейнер где фотографии наша команда */
+
+
+.main2{
+    max-width: 2000px;
+    max-height: 1000px;
+    background-color: rgb(216, 216, 221);
+    
+}
 
 .conteiner{
     display:inline-block;
@@ -111,13 +120,13 @@ h3{
    text-align: center;
 }
 
-
+/* такой же контейнер как main выравнивает текст по центру */
 
 .outher{
     text-align: center;
 
 }
-
+/* main контейнер - наша команда выравнивает текст по центру */
 
 .main{
 
@@ -130,10 +139,11 @@ h1{
 
 }
 
-
+/* контейнер логотипы фирм партнеров */
 .main-logo{
     max-height: 300px;
-    max-width: 1200px;
+    max-width: 2000px;
+    background-color: white;
 }
 
 
@@ -155,6 +165,8 @@ h1{
     grid-column: 1/2;
     margin-left: 20px;
     margin-right: 50px;
+    border-style: solid;
+    
       background-color: rgb(229, 233, 233);
 
 }
@@ -163,12 +175,14 @@ h1{
     grid-column: 2/4;
     margin-left: 20px;
     margin-right: 50px;
+    border-style: solid;
     background-color: rgb(229, 233, 233); 
 }
 .logo3{
     grid-column: 4/6;
     margin-left: 20px;
     margin-right: 50px;
+    border-style: solid;
     background-color: rgb(229, 233, 233);
     text-align: center;
 }
@@ -176,6 +190,7 @@ h1{
     grid-column: 6/8;
     margin-left: 20px;
     margin-right: 50px;
+    border-style: solid;
     background-color: rgb(229, 233, 233);  
     text-align: center;
 }
@@ -183,15 +198,20 @@ h1{
     grid-column: 8/10;
     margin-left: 20px;
     margin-right: 50px;
+    border-style: solid;
     background-color: rgb(229, 233, 233); 
 }
 .logo6{
     grid-column: 10/12;
     margin-left: 20px;
     margin-right: 50px;
+    border-style: solid;
     background-color: rgb(229, 233, 233);
     text-align: center;
 }
+
+
+/* футер - подвал */
 .page-footer{
     font-size: 20px;
     color: aliceblue;
