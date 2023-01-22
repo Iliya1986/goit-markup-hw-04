@@ -20,6 +20,19 @@ h1 {
     padding: 150px;
     }
 
+
+.image-wrap{
+    text-align: center;
+}
+
+
+
+.main-text{
+    margin-top: 50px;
+    max-height: 300px;
+    
+}
+
     .text{
         display: grid;
         grid-template-rows:repeat(8, 1fr);
@@ -30,24 +43,38 @@ h1 {
 
 .text1{
         grid-column: 2/2;
-        margin: 50px;
-        
+      height: 200px;
+        width: 150px;
+        text-align: center;
         }
       
         .text2{
             grid-column: 4/4;
-            margin: 50px;
+            width: 150px;
+            height: 200px;
+            text-align: center;
             }
             .text3{
                 grid-column:6/6;
-                margin: 50px;
+                width: 150px;
+                height: 200px;
+                text-align: center;
                 }
                 .text4{
                     grid-column: 8/8;
-                    margin: 50px;
+                    width: 150px;
+                    height: 200px;
+                    text-align: center;
                     }
 
-
+.img-text{
+    text-align: center;
+    background-color: rgb(236, 240, 240);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 h2{
     font-size: 30PX;
@@ -102,6 +129,13 @@ h1{
     text-align: center;
 
 }
+
+
+.main-logo{
+    max-height: 300px;
+    max-width: 1200px;
+}
+
 
 
 .logo{
